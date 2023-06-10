@@ -28,4 +28,4 @@ Run python file
 python3 app.py
 ```
 
-And enjoy!
+Play around with sample clips in the ``videos`` directory, or your own recordings
