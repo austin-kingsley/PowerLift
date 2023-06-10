@@ -3,25 +3,11 @@ The sport of powerlifting involves a maximal weight single lift on three distinc
 
 This project involves the creation of an application for powerlifters to analyse video recordings of their lifts. The application features the ability to classify exercises, automatically identify the weight plate at the end of the barbell, classify the validity of the lift, and more. Our exercise classifier achieved an accuracy of 91% in correctly determining the exercise being performed, and our weight plate detector an accuracy of 100% with 95% precision. Our application was also able to classify exercises into ‘legal’ or ‘illegal’ according to IPF standards with an accuracy of 96%, henceforth sounding promising as a tool for powerlifters to use in training, and federations to use when judging lifts during competition
 
-## Running the .exe
-
-Ensure you are on Windows 10
-
-Copy contents of ``videos`` to your ``Videos`` directory
-
-Extract ``app.zip`` and navigate to the ``app`` directory
-
-Navigate to ``app -> myApp``
-
-Run ``MyApp.exe``
-
-
-
 ## Running source files
 
-To run the raw source files, ensure you have ``python3``, ``venv``, and ``pip`` installed
+Clone this repository to your machine
 
-Navigate to the ``source`` directory on your command line
+Ensure you have ``python3``, ``venv``, and ``pip`` installed
 
 Create a virtual environment using
 ```bash
@@ -42,3 +28,5 @@ Run python file
 ```bash
 python3 app.py
 ```
+
+And enjoy!
